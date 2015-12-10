@@ -34,7 +34,6 @@ using:
 3. set APP path
 
 `export APP=/where/you/place/your/ios/app`
-
 to add enviroment parameters for ios APP
 
 4. modify config/cucumber.yum set APP_BUNDLE_PATH the same ass APP enviroment parameters
