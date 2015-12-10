@@ -3,12 +3,12 @@
 This is a brand new calabashCrossPlatform demo
 
 ## What is calabash
-[calabash offical site][1]
-[calabash for ios guide][2]
-[calabash for android guide][3]
+[calabash offical site](http://calaba.sh/)
+[calabash for ios guide](https://github.com/calabash/calabash-ios)
+[calabash for android guide](https://github.com/calabash/calabash-andorid)
 
 ## How can it really cross platform?
-see demo[here][7]
+see demo[here](https://developer.xamarin.com/guides/testcloud/calabash/xplat-best-practices/)
 
 ## Requirement
 1. MacOS 10.10 or 10.11 or something like unix
@@ -18,8 +18,8 @@ see demo[here][7]
 5. Android SDK
 
 ## Installation
-1. install Ruby [This way][4]
-2. install calabash-android [This way][5]
+1. install Ruby [This way](https://www.ruby-lang.org/en/documentation/installation/)
+2. install calabash-android [This way](https://github.com/calabash/calabash-android/blob/master/documentation/installation.md)
 3. install calabash-ios
 
 using:
@@ -27,7 +27,8 @@ using:
 
 ## build your App
 1. Android build move your app to this folder
-2. IOS build [see this][6]
+2. IOS build [see this](https://github.com/calabash/calabash-ios#step-1-link-calabashframework)
+
 3. set APP path
 
 `export APP=/where/you/place/your/ios/app`
@@ -37,7 +38,6 @@ to add enviroment parameters for ios APP
 
 ## What's the files means
 
-`
 .
 ├── Gemfile						#The gem file for requirement
 ├── config						#config file
@@ -64,7 +64,6 @@ to add enviroment parameters for ios APP
 │       └── my_first_steps.rb				#self define step
 └── test_servers					#saving the apk rebuild by calabash
     └── 1adcc139100c3e319baeaaba8784617e_0.5.15.apk
-`
 
 ## How to run
 1. ios:
@@ -75,10 +74,4 @@ to add enviroment parameters for ios APP
 
 `calabash-android run xxx.apk -p android`
 
-[1]http://calaba.sh/
-[2]https://github.com/calabash/calabash-ios
-[3]https://github.com/calabash/calabash-andorid
-[4]https://www.ruby-lang.org/en/documentation/installation/
-[5]https://github.com/calabash/calabash-android/blob/master/documentation/installation.md
-[6]https://github.com/calabash/calabash-ios#step-1-link-calabashframework
-[7]https://developer.xamarin.com/guides/testcloud/calabash/xplat-best-practices/
+
