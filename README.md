@@ -31,10 +31,8 @@ using:
 1. Android build move your app to this folder
 2. IOS build [see this](https://github.com/calabash/calabash-ios#step-1-link-calabashframework)
 3. set APP path
-
 `export APP=/where/you/place/your/ios/app`
 to add enviroment parameters for ios APP
-
 4. modify config/cucumber.yum set APP_BUNDLE_PATH the same ass APP enviroment parameters
 
 ## What's the files means
