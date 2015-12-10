@@ -36,7 +36,7 @@ using:
 `export APP=/where/you/place/your/ios/app`
 
 to add enviroment parameters for ios APP
-5. modify config/cucumber.yum set APP_BUNDLE_PATH the same ass APP enviroment parameters
+4. modify config/cucumber.yum set APP_BUNDLE_PATH the same ass APP enviroment parameters
 
 ## What's the files means
 
@@ -90,7 +90,6 @@ to add enviroment parameters for ios APP
 
 └── test_servers					#saving the apk rebuild by calabash
 
-    └── 1adcc139100c3e319baeaaba8784617e_0.5.15.apk
 
 ## How to run
 1. ios:
