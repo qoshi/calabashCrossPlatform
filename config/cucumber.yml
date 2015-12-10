@@ -1,0 +1,3 @@
+android: PLATFORM=android -r features/android/support -r features/step_definitions -r features/android/pages
+
+ios: APP_BUNDLE_PATH=/where/you/put/your/ios/ios.app PLATFORM=ios -r features/ios/support -r features/step_definitions -r features/ios/pages
